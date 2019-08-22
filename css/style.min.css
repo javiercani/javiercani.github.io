@@ -87,7 +87,7 @@ p img {
     margin:0
 }
 a {
-    color:#39f;
+    color:#82001D;
     font:15px/26px'Raleway', sans-serif;
     text-decoration:none;
     -webkit-transform:translateZ(0);
@@ -204,7 +204,7 @@ h3.section-title {
     height:2px;
     width:30px;
     margin:10px auto 20px;
-    background:#39f
+    background:#82001D
 }
 .section-tagline {
     font:18px/29px'Raleway', Arial, sans-serif;
@@ -257,7 +257,7 @@ h1.logo a span.last {
     font-weight:300;
     text-transform:lowercase;
     font-size:20px;
-    color:#39f;
+    color:#82001D;
     letter-spacing:-0.5px
 }
 h1.logo a span.indent {
@@ -277,8 +277,8 @@ h1.logo a span.indent {
 }
 .lm-button:hover, .post .lm-button:hover {
     text-decoration:none;
-    background:#39f;
-    border-color:#39f
+    background:#82001D;
+    border-color:#82001D
 }
 .border-top {
     border-top:1px solid #e6e6e6
@@ -598,7 +598,7 @@ header nav ul li a {
     letter-spacing:1.5px
 }
 header nav a:hover, header nav a.active {
-    color:#39f
+    color:#82001D
 }
 header nav ul li:last-child {
     padding-right:0
@@ -682,13 +682,13 @@ header nav ul li ul li a {
     color:#fff
 }
 #header-section.altmenu ul li a:hover {
-    color:#39f
+    color:#82001D
 }
 #header-section.altmenu.header-show ul li a, #header-section.altmenu.header-show ul li a {
     color:#000
 }
 #header-section.altmenu.header-show ul li a:hover, #header-section.altmenu.header-show ul li a.active {
-    color:#39f
+    color:#82001D
 }
 .ha-header.menushow {
     -webkit-transform:translateY(0);
@@ -971,7 +971,7 @@ section#home-content, div#home-content {
 .hero-single .meta span:after {
     content:'\00B7';
     vertical-align:top;
-    color:#39f;
+    color:#82001D;
     padding-left:10px;
     font-size:28px;
     margin-right:6px
@@ -997,7 +997,7 @@ h1.big_white.border {
     padding:2px 15px
 }
 .big_white span {
-    color:#39f
+    color:#82001D
 }
 .hero-inner.left {
     text-align:left
@@ -1204,7 +1204,7 @@ h1.big_white.border {
 }
 #about-icons i {
     font-size:64px;
-    color:#39f
+    color:#82001D
 }
 #about-icons h2 {
     font-size:16px;
@@ -1325,7 +1325,7 @@ ul.filter>li.active:after, ul.filter-target>li.active:after {
     border-bottom:10px solid #fff
 }
 ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.filter-target>li a:hover {
-    color:#39f
+    color:#82001D
 }
 #option-section {
     padding:50px 0;
@@ -1352,7 +1352,7 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
     width:0;
     display:block;
     height:100%;
-    background-color:#39f
+    background-color:#82001D
 }
 .chart {
     position:relative;
@@ -1400,10 +1400,10 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
 }
 .post .stats .icon {
     background:transparent;
-    border:1px solid #39f
+    border:1px solid #82001D
 }
 .stats .icon:hover {
-    background:#39f;
+    background:#82001D;
     color:#fff
 }
 .stats i {
@@ -1414,7 +1414,7 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
 .stats .number {
     font-size:48px;
     font-weight:300;
-    color:#39f;
+    color:#82001D;
     margin:40px 0 15px 0
 }
 .stats .desc {
@@ -1442,7 +1442,7 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
     color:#adadad
 }
 #port-filter li a:hover, #port-filter li.active a {
-    color:#39f
+    color:#82001D
 }
 #portfolio-wrapper>div {
     width:33.3333%;
@@ -1568,7 +1568,7 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
     font:64px/64px'Raleway', Arial, sans-serif;
     font-weight:300;
     margin-bottom:10px;
-    color:#39f;
+    color:#82001D;
     display:block
 }
 .table ul li {
@@ -1585,21 +1585,21 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
 .table .lm-button {
     margin:35px 0 0 0;
     text-decoration:none!important;
-    border:1px solid #39f;
-    color:#39f
+    border:1px solid #82001D;
+    color:#82001D
 }
 .table .lm-button:hover {
-    border:1px solid #39f;
-    background-color:#39f;
+    border:1px solid #82001D;
+    background-color:#82001D;
     color:#fff
 }
 .table .lm-button.fill {
-    background-color:#39f;
+    background-color:#82001D;
     color:#fff
 }
 .table .lm-button.fill:hover {
     background-color:transparent;
-    color:#39f
+    color:#82001D
 }
 .table-desc {
     display:block;
@@ -1613,7 +1613,7 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
 }
 #features i {
     font-size:46px;
-    color:#39f
+    color:#82001D
 }
 #features h3 {
     font-size:18px;
@@ -1708,7 +1708,7 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
     color:#fff
 }
 #team-members .team-image a:hover {
-    color:#39f
+    color:#82001D
 }
 #team-members .team-image i {
     font-size:28px;
@@ -1753,7 +1753,7 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
     display:block
 }
 #quote-request {
-    background-color:#39f;
+    background-color:#82001D;
     padding:80px 0
 }
 #quote-request.dark {
@@ -1780,7 +1780,7 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
 }
 #quote-request .lm-button:hover {
     background-color:#fff;
-    color:#39f
+    color:#82001D
 }
 #blog.single {
     padding:0
@@ -1825,7 +1825,7 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
     font-weight:300
 }
 #posts a:hover {
-    color:#39f
+    color:#82001D
 }
 #posts a.author {
     font-weight:300
@@ -1846,14 +1846,14 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
     display:block;
     height:90px;
     line-height:90px;
-    background:#39f;
+    background:#82001D;
     text-align:center;
     color:#fff;
     font-size:18px
 }
 #blog .loadmore:hover {
     background:#fff;
-    color:#39f
+    color:#82001D
 }
 #twitter {
     height:480px;
@@ -1885,10 +1885,10 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
     margin:0 10px
 }
 #twitter .tweet-actions li a {
-    color:#39f
+    color:#82001D
 }
 #twitter a {
-    color:#39f
+    color:#82001D
 }
 .tweet {
     width:90%;
@@ -1898,7 +1898,7 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
 .tweet:before {
     font-family:'FontAwesome';
     content:'\f099';
-    color:#39f;
+    color:#82001D;
     font-size:48px;
     line-height:48px
 }
@@ -1906,8 +1906,8 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
     border:1px solid #777
 }
 #twitter .owl-pagination .owl-page.active span {
-    background-color:#39f;
-    border:1px solid #39f
+    background-color:#82001D;
+    border:1px solid #82001D
 }
 #contact {
     text-align:center
@@ -1961,7 +1961,7 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
     margin-bottom:30px
 }
 #contact input[type="text"]:focus, #contact textarea:focus {
-    border:1px solid #39f;
+    border:1px solid #82001D;
     background-color:#fff
 }
 #contact input[type="submit"], #comment input[type="submit"] {
@@ -1974,7 +1974,7 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
     margin:30px auto 0 auto
 }
 #contact input[type="submit"]:hover {
-    background-color:#39f;
+    background-color:#82001D;
     color:#fff
 }
 #contact textarea {
@@ -1989,11 +1989,11 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
     display:block
 }
 #contact .column>a:hover {
-    color:#39f
+    color:#82001D
 }
 #contact i {
     font-size:42px;
-    color:#39f
+    color:#82001D
 }
 #contact .row.icons {
     margin-top:80px
@@ -2043,13 +2043,13 @@ ul.filter>li.active a, ul.filter>li a:hover, ul.filter-target>li.active a, ul.fi
     color:#fff
 }
 #callout input[type="text"]:focus {
-    border:1px solid #39f
+    border:1px solid #82001D
 }
 #callout input[type="submit"] {
     padding:21px 48px;
     font-size:13px;
-    background-color:#39f;
-    border:1px solid #39f;
+    background-color:#82001D;
+    border:1px solid #82001D;
     color:#fff;
     letter-spacing:1.5px;
     text-transform:uppercase;
@@ -2082,7 +2082,7 @@ footer .block a {
     color:gray
 }
 footer .block a:hover {
-    color:#39f
+    color:#82001D
 }
 footer ul {
     margin:0
@@ -2091,7 +2091,7 @@ footer img {
     margin-bottom:15px
 }
 footer #copyright i {
-    color:#39f;
+    color:#82001D;
     font-size:12px
 }
 #social {
@@ -2105,7 +2105,7 @@ footer #copyright i {
     height:2px;
     width:30px;
     margin:10px auto 20px;
-    background:#39f
+    background:#82001D
 }
 #social ul li, #socialContact ul li {
     list-style:none;
@@ -2124,8 +2124,8 @@ footer #copyright i {
     display:inline-block
 }
 #social ul li a:hover, #socialContact ul li a:hover {
-    border:1px solid #39f;
-    color:#39f
+    border:1px solid #82001D;
+    color:#82001D
 }
 #socialContact a i {
     font-size:20px;
@@ -2133,7 +2133,7 @@ footer #copyright i {
 }
 #socialContact a:hover i {
     font-size:20px;
-    color:#39f
+    color:#82001D
 }
 footer span.first {
     font-weight:700;
@@ -2146,7 +2146,7 @@ footer span.last {
     font-weight:300;
     text-transform:lowercase;
     font-size:24px;
-    color:#39f;
+    color:#82001D;
     letter-spacing:-0.5px
 }
 #portfolio-single {
@@ -2174,7 +2174,7 @@ footer span.last {
     background-color:#222
 }
 #portfolio-single header .navigation li.close a:hover {
-    background-color:#39f;
+    background-color:#82001D;
     color:#fff
 }
 .navigation li.share>ul {
@@ -2241,7 +2241,7 @@ footer span.last {
     height:2px;
     width:30px;
     margin:10px auto 20px;
-    background:#39f
+    background:#82001D
 }
 #portfolio-single h3.category {
     text-align:center;
@@ -2264,8 +2264,8 @@ footer span.last {
     border-color:#aeaeae
 }
 #portfolio-single #images .owl-pagination .owl-page.active span {
-    background-color:#39f;
-    border:1px solid #39f
+    background-color:#82001D;
+    border:1px solid #82001D
 }
 #single-post {
     margin:60px auto;
@@ -2279,7 +2279,7 @@ footer span.last {
 }
 .post a {
     font-size:18px;
-    color:#39f
+    color:#82001D
 }
 .post .caption {
     font-style:italic;
@@ -2297,8 +2297,8 @@ footer span.last {
     border:1px solid #888;
     border-radius:5px;
     text-transform:uppercase;
-    border:1px solid #39f;
-    color:#39f
+    border:1px solid #82001D;
+    color:#82001D
 }
 .post .caption a {
     font-size:15px
@@ -2312,7 +2312,7 @@ p.bigletter:first-letter {
     float:left;
     margin-left:-6px;
     line-height:82px;
-    color:#39f;
+    color:#82001D;
     margin-right:5px
 }
 blockquote {
@@ -2320,7 +2320,7 @@ blockquote {
     font-size:21px;
     line-height:31px;
     padding-left:20px;
-    border-left:1px solid #39f;
+    border-left:1px solid #82001D;
     margin:20px 0
 }
 .owl-wrapper blockquote {
@@ -2338,8 +2338,8 @@ blockquote {
     font-size:15px
 }
 #single-post #tags a:hover {
-    color:#39f;
-    border:1px solid #39f;
+    color:#82001D;
+    border:1px solid #82001D;
     text-decoration:none
 }
 #related-posts {
@@ -2368,7 +2368,7 @@ h3.single {
 }
 #pagination a:hover {
     text-decoration:none;
-    color:#39f
+    color:#82001D
 }
 #pagination a.prev:before {
     font-family:'FontAwesome';
@@ -2403,7 +2403,7 @@ h3.single {
     color:#d2d2d2
 }
 #user .social a:hover {
-    color:#39f
+    color:#82001D
 }
 #user img {
     float:left
@@ -2450,7 +2450,7 @@ h3.single {
 }
 #comments-section .more:hover {
     text-decoration:none;
-    background-color:#39f;
+    background-color:#82001D;
     color:#fff
 }
 #comment {
@@ -2466,13 +2466,13 @@ h3.single {
     margin-bottom:30px
 }
 #comment input[type="text"]:focus, #comment textarea:focus {
-    border:1px solid #39f
+    border:1px solid #82001D
 }
 #comment input[type="submit"] {
     margin-top:5px
 }
 #comment input[type="submit"]:hover {
-    background-color:#39f;
+    background-color:#82001D;
     color:#fff
 }
 #comment textarea {
@@ -2555,7 +2555,7 @@ h3.single {
     border-bottom:0
 }
 .tabable .tabs li a:hover, .tabable .tabs li.active a {
-    color:#39f
+    color:#82001D
 }
 .success, .errormsg, .notice, .general {
     padding:12px 20px;
@@ -2838,7 +2838,7 @@ ul.social li a:hover {
         margin-right:-15px;
         width:30px;
         height:3px;
-        background:#39f;
+        background:#82001D;
         font-size:30px
     }
     #menu-toggle:after, #menu-toggle:before {
@@ -2847,7 +2847,7 @@ ul.social li a:hover {
         right:0;
         width:100%;
         height:3px;
-        background:#39f;
+        background:#82001D;
         -webkit-transform-origin:center center;
         -moz-transform-origin:center center;
         -ms-transform-origin:center center;
@@ -2940,7 +2940,7 @@ ul.social li a:hover {
         background-color:#000
     }
     #header-section #navigation ul li a:hover {
-        background-color:#39f;
+        background-color:#82001D;
         color:#fff
     }
     section {
@@ -3227,7 +3227,7 @@ ul.social li a:hover {
         font-weight:300
     }
     #twitter .one-tweet a {
-        color:#39f;
+        color:#82001D;
         font-size:21px;
         font-weight:300
     }
@@ -3539,7 +3539,7 @@ ul.social li a:hover {
 }
 .procesoSteps i {
     font-size:40px;
-    color:#39f
+    color:#82001D
 }
 .procesoSteps .column {
     position:relative
@@ -3549,7 +3549,7 @@ ul.arrow, ul.checked {
 }
 .hero-inner .lm-button {
     color:white;
-    backgrouond:#39f;
+    backgrouond:#82001D;
     border-radius:0;
     border:1px solid white;
     box-shadow:1px 1px 1px #555
@@ -3559,10 +3559,10 @@ ul.arrow, ul.checked {
 }
 .hero-inner .lm-button.negative {
     color:white;
-    background:#39f!important;
+    background:#82001D!important;
     border-radius:0;
     box-shadow:1px 1px 1px #000;
-    border-color:#39f
+    border-color:#82001D
 }
 .hero-inner .lm-button:hover.negative {
     color:white;
@@ -3600,7 +3600,7 @@ ul.arrow, ul.checked {
 #error404 .stats .number {
     font-size:120px;
     font-weight:700;
-    color:#39f;
+    color:#82001D;
     margin:50px 0 40px 0;
     letter-spacing:-10px;
     font-family:Montserrat, sans-serif;
