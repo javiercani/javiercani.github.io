@@ -407,7 +407,7 @@ if (!Array.prototype.indexOf) {
 
         /* Google Map 
         ================================================== */
-        google.maps.event.addDomListener(window, 'load', init);
+        //google.maps.event.addDomListener(window, 'load', init);
 
         function init() {
         var mapOptions = {
@@ -447,7 +447,7 @@ if (!Array.prototype.indexOf) {
         
         //ajax contact form
         $('#forms').isValid({
-            'name' : function(data) {
+            'nombre' : function(data) {
                 this.setClass(this.$el.parent());
                 return this.notEmpty(data);
             },
@@ -455,13 +455,20 @@ if (!Array.prototype.indexOf) {
                 this.setClass(this.$el.parent());
                 return this.isEmail(data);
             },
-            'message' : function(data) {
+            'consulta' : function(data) {
+                this.setClass(this.$el.parent());
+                return this.notEmpty(data);
+            },
+            'telefono' : function(data) {
+                this.setClass(this.$el.parent());
+                return this.notEmpty(data);
+            },
+            'asunto' : function(data) {
                 this.setClass(this.$el.parent());
                 return this.notEmpty(data);
             }
         }).submit(function(e){
-            e.preventDefault();
-            
+            //e.preventDefault();
             var $this = $(this);
             
             $this.find('.notification')
@@ -469,13 +476,27 @@ if (!Array.prototype.indexOf) {
             $this.find('.notification').text('');
             
             $this.find('.loading').show();
-            
+
             $.ajax({
                 'url' : $(this).attr('action'),
-                'type' : 'POST',
-                'dataType' : 'json',
-                'data' : $(this).serialize()
+                'type' : 'GET',
+                'dataType' : 'jsonp',
+                'crossDomain' : true,
+                'data' : $(this).serialize(),
+                beforeSend: function(request) {
+                    request.setRequestHeader("Access-Control-Allow-Origin", "");
+                    request.setRequestHeader("Access-Control-Allow-Methods", "*");
+                    request.setRequestHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
+                    request.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+                    request.setRequestHeader("Origin", "http://inminds.com.ar");
+                    request.setRequestHeader("Referer", "http://inminds.com.ar/");
+                    request.setRequestHeader("Host", "inminds.com.ar");
+                    request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+                    
+                  }
             }).done(function(response){
+                console.log(response);
+                
                 $this.find('.loading').hide();
                 if(typeof response.type != 'undefined' && typeof response.message != 'undefined') {
                     $this.find('.notification')
@@ -715,7 +736,7 @@ if (!Array.prototype.indexOf) {
         /*
         * get twitter feeds and init carousel
         */
-        $.getJSON( "twitter/get_tweets.php", function( data ) {
+        /* $.getJSON( "twitter/get_tweets.php", function( data ) {
             
             if(data) {
                 var tweets = '';
@@ -741,7 +762,7 @@ if (!Array.prototype.indexOf) {
 
         }).always(function() {
             twitterCarousel();
-       });
+       }); */
 
     });
 
