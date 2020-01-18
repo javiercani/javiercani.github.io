@@ -226,7 +226,7 @@ if (!Array.prototype.indexOf) {
         /* Scroll to Element on Page
         ================================================== */
         $('#cta').click( function(event) {
-            event.preventDefault();
+            //event.preventDefault();
             $.scrollTo( $('#contact') , 1250, {  offset: -80 , 'axis':'y' } );
         });
 
@@ -237,7 +237,7 @@ if (!Array.prototype.indexOf) {
                 offset = -80; 
             };
             $.scrollTo( $this.attr('href') , 650, { easing: 'swing' , offset: offset , 'axis':'y' } );
-            event.preventDefault();
+            //event.preventDefault();
         });
 
         /* Add active class for each nav depending on scroll
@@ -467,7 +467,54 @@ if (!Array.prototype.indexOf) {
                 this.setClass(this.$el.parent());
                 return this.notEmpty(data);
             }
-        }).submit(function(e){
+        }).submit(function (e) {
+            console.log("enviando mail");
+            
+            e.preventDefault();
+
+            var $this = $(this);
+
+            $this.find('.notification')
+                .attr('class', 'notification');
+            $this.find('.notification').text('');
+
+            $this.find('.loading').show();
+            
+            $.ajax({
+                'url': $(this).attr('action'),
+                'type': 'POST',
+                'data': $(this).serialize()
+            }).done(function (response) {
+                console.log("Done:",response);
+                $this.find('.loading').hide();
+                if (typeof response.type != 'undefined' && typeof response.message != 'undefined') {
+                    $this.find('.notification')
+                        .addClass(response.type)
+                        .text(response.message);
+
+                    if (response.type == 'success') {
+                        $this.find('input[type="text"], input[type="email"], textarea').val('');
+                        //AÃ‘ADIMOS TRACKEO DE ENVIO FORMULARIO AJAX
+                        //_gaq.push(['_trackPageview', '/action.php']);
+                        ga('send', 'pageview', '/action.php');
+                    }
+                }
+            })
+            .success(function (resp) {
+                console.log("Success: ",resp);
+            })
+            .fail(function (data) {
+                console.log("Fail: ",data);
+                $this.find('.loading').hide();             
+                /* message.fadeIn().removeClass('alert-success').addClass('alert-success');
+                message.text(data.responseText);
+                setTimeout(function () {
+                    message.fadeOut();
+                }, 5000); */
+            });
+            //return false;
+        });
+        /* .submit(function(e){
             //e.preventDefault();
             var $this = $(this);
             
@@ -512,7 +559,7 @@ if (!Array.prototype.indexOf) {
                 }
             });
             //return false;
-        });
+        }); */
 
         /* Placeholder fix for IE
         ================================================== */

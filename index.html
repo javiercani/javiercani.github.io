@@ -91,7 +91,7 @@
                 <h1 class="big_white">Soy diseñador y desarrollador  
                     <span class="element" data-elements="Full Stack, Front-end, Back-end, Mobile"></span>
                 </h1>
-                <span class="btn-holder"><a href="#skills"><a href="#skills" class="hero-btn lm-button">Algo más sobre mí</a></span>
+                <span class="btn-holder"><a href="#about" class="hero-btn lm-button">Algo más sobre mí</a></span>
             </div>
         </div>
     </section>
@@ -103,7 +103,8 @@
             <div class="hero-inner">
                 <div class="hero-copy">No seré un Ninja, <span class="element" data-elements="o jugador de futbol, o aviador"></span>pero...</div>
                 <h1 class="big_white">¡Me apasiona lo que hago!</h1>
-                <span class="btn-holder"><a href="#portfolio" class="hero-btn lm-button negative">Ver mis trabajos</a>
+                <span class="btn-holder"><a href="#about" class="hero-btn lm-button">Algo más sobre mí</a></span>
+                <!-- <span class="btn-holder"><a href="#portfolio" class="hero-btn lm-button negative">Ver mis trabajos</a> -->
                 </span>
             </div>
         </div>
@@ -115,7 +116,7 @@
 <div id="home-content" class="top-waypoint" data-animate-up="header-hide" data-animate-down="header-show">
 
     <!-- Menu -->
-    <header id="header-section" class="ha-header">
+    <!-- <header id="header-section" class="ha-header">
         <div class="container">
             <div class="row">
                 <div class="column three">
@@ -141,11 +142,11 @@
                 </a>
             </div>
         </div>
-    </header>
+    </header> -->
     <!-- / Fin Menu -->
     
     <!-- ABOUT -->
-    <section id="about" class="menu-in">
+    <section id="about" name="about" class="menu-in">
         <header class="section-header">
             <h1 class="section-title">Diseño y desarrollo de sistemas</h1>
             <h2 class="section-tagline mb40">Bienvenidos a mi portfolio personal online, donde podrás saber algo más acerca de mi o de mis trabajos.</h2>
@@ -231,7 +232,7 @@
                             </div>
                     </div>
                     <!-- En que ando metido -->
-                    <div class="row" id="skills">
+                    <div class="row" id="skills" name="skills">
                         <div class="column six">
                            <p>Actualmente me encuentro trabajando con <strong>Ionic y Angular</strong> en Front-end y <strong>NodeJS o PHP con MySQL</strong> en Back-end. Creando <strong>sitios Responsive y Apps Moviles</strong> para potenciar la imagen de la empresa y asi sus web sean amigables.</p>
                            <p>En algunas ocaciones utilizo herramientas como Wordpress o Drupal, Prestashop, Moodle, OsTicket y programas como Visual Code, GIT, Docker y editores de imagenes como Inkscape y Fireworks.</p>
@@ -517,21 +518,22 @@
                        </div>
                        <div class="column six">
                             <div class="row">
-                                <form action="http://inminds.com.ar/Contacto/emailGET" method="GET" id="forms">
+                                <!-- <form action="http://inminds.com.ar/Contacto/emailGET" method="GET" id="forms"> -->
+                                <form action="contacto.php" id="forms">
                                     <div class="column six">
-                                        <input type="text" placeholder="Nombre" id="name" name="nombre">
+                                        <input type="text" placeholder="Nombre" id="name" name="name">
                                     </div>
                                     <div class="column six">
                                         <input type="text" placeholder="Email" id="email" name="email">
                                     </div>
                                     <div class="column six">
-                                        <input type="text" placeholder="Telefono" id="telefono" name="telefono">
+                                        <input type="text" placeholder="Telefono" id="phone" name="phone">
                                     </div>
                                     <div class="column six">
-                                        <input type="text" placeholder="Asunto" id="subject" name="asunto">
+                                        <input type="text" placeholder="Asunto" id="subject" name="subject">
                                     </div>
                                     <div class="column twelve">
-                                        <textarea name="consulta" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
                                         <input type="hidden" name="submit">
                                         <input type="submit" value="enviar mensaje">
                                     </div>
@@ -614,6 +616,9 @@
   })(window,document,'script','js/analytics.js','ga');
   ga('create', 'UA-75592755-1', 'auto');
   ga('send', 'pageview');
+  function goto($hashtag) {
+    document.location = "index.html#" + $hashtag;
+    }
 </script>
 
 </body>
